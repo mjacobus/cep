@@ -2,8 +2,12 @@ require 'spec_helper'
 require 'cep'
 
 describe Cep do
-  describe "#address" do
-    subject { Cep.new.address('93320220') }
+  describe "#address with cep" do
+    subject { Cep.new.cep('93320220') }
+
+    it "gets tipo_logradouro" do
+      subject[:tipo_logradouro].should eq("Rua")
+    end
 
     it "gets logradouro" do
       subject[:logradouro].should eq("Rua Guanabara")
@@ -18,7 +22,7 @@ describe Cep do
     end
 
     it "gets localidade" do
-      subject[:estado].should eq("RS")
+      subject[:uf].should eq("RS")
     end
 
     it "gets cep" do
@@ -26,6 +30,33 @@ describe Cep do
     end
   end
 
+  describe "#cep with address" do
+    subject { Cep.new.address('Avenida Conde da Boa Vista')[0] }
+
+    it "gets tipo_logradouro" do
+      subject[:tipo_logradouro].should eq("Avenida")
+    end
+
+    it "gets logradouro" do
+      subject[:logradouro].should eq("Avenida Conde de Boa Vista")
+    end
+
+    it "gets bairro" do
+      subject[:bairro].should eq("Jardim Tijuca")
+    end
+
+    it "gets localidade" do
+      subject[:localidade].should eq("Campo Grande")
+    end
+
+    it "gets localidade" do
+      subject[:uf].should eq("MS")
+    end
+
+    it "gets cep" do
+      subject[:cep].should eq("79094050")
+    end
+  end
 
   describe "#url" do
     it "builds ws url with params" do
