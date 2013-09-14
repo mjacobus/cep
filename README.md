@@ -1,4 +1,5 @@
-# CEP [![Build Status](https://secure.travis-ci.org/mjacobus/cep.png)](http://travis-ci.org/mjacobus/cep?branch=development)
+# CEP
+[![Build Status](https://secure.travis-ci.org/mjacobus/cep.png)](http://travis-ci.org/mjacobus/cep?branch=development)
 
 Consultas ao CEP.
 
