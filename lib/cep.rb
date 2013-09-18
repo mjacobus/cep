@@ -17,7 +17,7 @@ class Cep
   end
 
   def cep(cep)
-    address(cep)[0]  
+    address(cep)[0]
   end
 
   def url(params = {})
@@ -74,6 +74,7 @@ class Cep
 
   def resolve_adrress(key, value)
     if key_name_present?(key, ['logradouro','endereço'])
+      @ceps << @_cep unless @_cep.empty?
       @_cep[:tipo_logradouro] = value.split(' ').map{|v| v.strip}[0]
       @_cep[:logradouro] = value
     end
@@ -82,6 +83,7 @@ class Cep
 
   def resolve_locality(key, value)
     if key_name_present?(key, ['localidade / uf'])
+      @ceps << @_cep unless @_cep.empty?
       @_cep[locality(key,0).to_sym] = locality(value,0)
       @_cep[locality(key,1).to_sym] = locality(value,1)
     end
@@ -90,6 +92,7 @@ class Cep
 
   def resolve_others(key, value)
     unless key_name_present?(key, ['logradouro','endereço','localidade / uf'])
+      @ceps << @_cep unless @_cep.empty?
       @_cep[key.to_sym] = value
     end
     @_cep

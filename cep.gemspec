@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name        = 'cep'
-  s.version     = '0.0.2'
-  s.date        = '2013-03-04'
+  s.version     = '0.0.3'
+  s.date        = '2013-09-18'
   s.summary     = "API for getting address of a given CEP or ADDRESS"
   s.description = "API for getting address of a given CEP or ADDRESS"
   s.authors     = ["Marcelo Jacobus","Fernando Pereira"]
