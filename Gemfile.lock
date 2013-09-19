@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    cep (0.0.2)
+    cep (0.0.3)
       addressable
       nokogiri
 
