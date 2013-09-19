@@ -36,7 +36,7 @@ class Cep
       el.parent.children.children.each_slice(2).each do |k,v|
         elements = clean_element(k, v)
         handle_keys(elements)
-      end 
+      end
     end
     @ceps.uniq
   end
