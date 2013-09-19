@@ -7,7 +7,7 @@ Consultas ao CEP.
 
 Add this line to your application's Gemfile:
 
-    gem 'juicy'
+    gem 'cep'
 
 And then execute:
 
@@ -15,7 +15,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install juicy
+    $ gem install cep
 
 ## Usage
 ### Para consultar endereço, pelo cep:
