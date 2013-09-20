@@ -8,7 +8,7 @@ class Cep
   URL = 'http://m.correios.com.br/movel/buscaCepConfirma.do'
 
   def search(term)
-    response = query({cepEntrada: term, metodo: :buscarCep})
+    response = query({cepEntrada: term.parameterize(' '), metodo: :buscarCep})
     Correios::AddressSearchResponse.new(response.body).addresses
   end
   alias_method :address, :search

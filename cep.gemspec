@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'cep'
-  s.version     = '0.0.4'
+  s.version     = '0.0.5'
   s.date        = '2013-09-20'
   s.summary     = "API for getting address of a given CEP or ADDRESS"
   s.description = "API for getting address of a given CEP or ADDRESS"
@@ -8,6 +8,7 @@ Gem::Specification.new do |s|
   s.email       = ['marcelo.jacobus@gmail.com', '']
   s.files       = ["lib/cep.rb"]
   s.homepage    = 'https://github.com/mjacobus/cep.git'
+  s.license     = 'MIT'
 
 
   s.add_dependency "nokogiri"

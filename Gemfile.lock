@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    cep (0.0.3)
+    cep (0.0.4)
       active_support
       addressable
       i18n
