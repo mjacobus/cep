@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.homepage    = 'https://github.com/mjacobus/cep.git'
   s.license     = 'MIT'
 
-
+  s.required_ruby_version = '>= 1.9.3'
   s.add_dependency "nokogiri"
   s.add_dependency "addressable"
   s.add_dependency "active_support"
