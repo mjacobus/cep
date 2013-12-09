@@ -4,6 +4,8 @@ Consultas ao CEP.
 
 [![Build Status](https://secure.travis-ci.org/mjacobus/cep.png)](http://travis-ci.org/mjacobus/cep?branch=development)
 [![Coverage Status](https://coveralls.io/repos/mjacobus/cep/badge.png)](https://coveralls.io/r/mjacobus/cep)
+[![Gem Version](https://badge.fury.io/rb/cep.png)](http://badge.fury.io/rb/cep)
+[![Dependency Status](https://gemnasium.com/mjacobus/cep.png)](https://gemnasium.com/mjacobus/cep)
 
 ## Installation
 
