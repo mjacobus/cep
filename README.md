@@ -1,7 +1,9 @@
 # CEP
-[![Build Status](https://secure.travis-ci.org/mjacobus/cep.png)](http://travis-ci.org/mjacobus/cep?branch=development)
 
 Consultas ao CEP.
+
+[![Build Status](https://secure.travis-ci.org/mjacobus/cep.png)](http://travis-ci.org/mjacobus/cep?branch=development)
+[![Coverage Status](https://coveralls.io/repos/mjacobus/cep/badge.png)](https://coveralls.io/r/mjacobus/cep)
 
 ## Installation
 
