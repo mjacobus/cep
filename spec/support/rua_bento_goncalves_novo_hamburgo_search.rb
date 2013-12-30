@@ -1,3 +1,4 @@
+# encoding: UTF-8
 module RuaBentoGoncalvesNovoHamburgoSearch
   def self.included(base)
     base.class_eval do
