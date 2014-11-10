@@ -1,6 +1,10 @@
+$:.push File.expand_path('../lib', __FILE__)
+
+require 'cep/version'
+
 Gem::Specification.new do |s|
   s.name        = 'cep'
-  s.version     = '0.0.5'
+  s.version     = Cep::VERSION
   s.date        = '2013-09-20'
   s.summary     = "API for getting address of a given CEP or ADDRESS"
   s.description = "API for getting address of a given CEP or ADDRESS"

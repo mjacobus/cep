@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    cep (0.0.5)
+    version (0.0.6)
       activesupport
       addressable
       i18n
@@ -86,8 +86,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  cep!
   coveralls
   guard-rspec
   rspec
   simplecov
+  version!
