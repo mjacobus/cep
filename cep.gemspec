@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.required_ruby_version = '>= 1.9.3'
   s.add_dependency "nokogiri"
   s.add_dependency "addressable"
-  s.add_dependency "active_support"
+  s.add_dependency "activesupport"
   s.add_dependency "i18n"
   s.add_development_dependency "rspec"
   s.add_development_dependency "simplecov"
