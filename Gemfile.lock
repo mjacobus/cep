@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    version (0.0.6)
+    cep (0.0.6)
       activesupport
       addressable
       i18n
@@ -54,6 +54,7 @@ GEM
       coderay (~> 1.0.5)
       method_source (~> 0.8)
       slop (~> 3.4)
+    rake (10.3.2)
     rb-fsevent (0.9.3)
     rb-inotify (0.9.1)
       ffi (>= 0.5.0)
@@ -86,8 +87,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  cep!
   coveralls
   guard-rspec
+  rake
   rspec
   simplecov
-  version!
