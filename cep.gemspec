@@ -5,12 +5,12 @@ require 'cep/version'
 Gem::Specification.new do |s|
   s.name        = 'cep'
   s.version     = Cep::VERSION
-  s.date        = '2013-09-20'
+  s.date = Date.today.strftime('%Y-%m-%d')
   s.summary     = "API for getting address of a given CEP or ADDRESS"
   s.description = "API for getting address of a given CEP or ADDRESS"
   s.authors     = ["Marcelo Jacobus","Fernando Pereira"]
   s.email       = ['marcelo.jacobus@gmail.com', '']
-  s.files       = ["lib/cep.rb"]
+  s.files       = `git ls-files`.split("\n")
   s.homepage    = 'https://github.com/mjacobus/cep.git'
   s.license     = 'MIT'
 
