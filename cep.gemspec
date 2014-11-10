@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.description = "API for getting address of a given CEP or ADDRESS"
   s.authors     = ["Marcelo Jacobus","Fernando Pereira"]
   s.email       = ['marcelo.jacobus@gmail.com', '']
-  s.files       = ["lib/cep.rb"]
+  s.files       = ["lib/*"]
   s.homepage    = 'https://github.com/mjacobus/cep.git'
   s.license     = 'MIT'
 
