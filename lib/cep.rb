@@ -25,6 +25,6 @@ class Cep
 
   def query(params = {})
     uri = URI.parse(url(params))
-    Net::HTTP.get_response(uri)
+    Net::HTTP.post_form(uri)
   end
 end
