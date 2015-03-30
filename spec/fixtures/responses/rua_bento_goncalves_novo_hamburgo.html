@@ -1,40 +1,33 @@
-
-
-
-
-
 <!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
-
-<html lang="en">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-    <!-- Meta usado no site da globo: <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> -->
-
-    <script type="text/javascript" src="scripts/jquery-1.4.2.min.js"></script>
-
-    <script language="JavaScript" src="scripts/template.js" type="text/javascript"></script>
-    <script language="JavaScript" src="scripts/aplicacao.js" type="text/javascript"></script>
-
-
-    <link rel="stylesheet" type="text/css" href="css/template.css">
-    <link rel="stylesheet" type="text/css" href="css/aplicacao.css">
-    <title>Correios Mobile</title>
-    <link rel="icon" href="images/template/icon.png" type="image/png"/>
-  </head>
-  <body>
-    <div id="divTelaAguarde">
-  <center>
-    <span class="style1"><br><br><br><br><br><br><br><br><br><img src="images/template/62x62.gif" /><br></span>
-    <span class="item">&nbsp;&nbsp;Aguarde...</span>
-  </center>
+<html lang="pt"><head>
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+        <!-- Meta usado no site da globo: <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> -->
+        
+        <script type="text/javascript" src="scripts/jquery-1.4.2.min.js"></script>
+        
+        <script language="JavaScript" src="scripts/template.js" type="text/javascript"></script> 
+        <script language="JavaScript" src="scripts/aplicacao.js" type="text/javascript"></script>
+         
+         
+        <link rel="stylesheet" type="text/css" href="css/template.css">
+        <link rel="stylesheet" type="text/css" href="css/aplicacao.css">
+        <title>Correios Mobile</title>
+        <link rel="icon" href="images/template/icon.png" type="image/png">      
+    </head>
+    <body>
+        <div id="divTelaAguarde">
+    <center>
+        <span class="style1"><br><br><br><br><br><br><br><br><br><img src="images/template/62x62.gif"><br></span>
+        <span class="item">&nbsp;&nbsp;Aguarde...</span>
+    </center>
 </div>
 
-    <div class="container">
-      <div class="fundo">
-        <div>
-          <a href="index.do" class="logo"></a>
-        </div>
-
+        <div class="container">
+            <div class="fundo">
+                <div>
+                    <a href="index.do" class="logo"></a>
+                </div>
+                
 
 
 
@@ -54,374 +47,128 @@
     }
 </script>
 <div class="conteudo">
-    <div class="secao">Busca CEP - Endereço</div><br/>
+    <div class="secao">Busca CEP - Endereço</div><br>
 
     <form name="buscaCepForm" method="post" action="/movel/buscaCepConfirma.do" id="frmCep">
 
-    Logradouro <b>1 - 7</b> de <b>7</b>
-
-
-
-
+        Logradouro <b>1 - 2</b> de <b>2</b>
+        
+        
+            
+                
                 <div class="caixacampobranco">
+                    
+                        
 
-
-
-
+                        
                             <span class="resposta">Logradouro: </span>
                             <span class="respostadestaque">
                                 Rua Bento Gonçalves - até 999/1000
-
-                            </span><br/>
-                            <span class="resposta">Bairro: </span><span class="respostadestaque">Centro</span><br/>
+                                
+                            </span><br>
+                            <span class="resposta">Bairro: </span><span class="respostadestaque">Centro</span><br>
                             <span class="resposta">Localidade / UF: </span>
                             <span class="respostadestaque">
                                 Novo Hamburgo
+                                
+                                /RS
+                                
+                            </span><br>
+                            <span class="resposta">CEP: </span><span class="respostadestaque">93410001</span><br>
+                        
 
-                /RS
+                        
 
-                            </span><br/>
-                            <span class="resposta">CEP: </span><span class="respostadestaque">93410001</span><br/>
+                        
 
+                        
 
-
-
-
-
-
-
-
-                        <div style="text-align: right;" class="mopcoes orientacao"><span>Opções <img style="position: relative right:0px;" src="images/template/mais.png"/></span></div>
+                        
+                        <div style="text-align: right;" class="mopcoes orientacao"><span>Opções <img style="position: relative right:0px;" src="images/template/mais.png"></span></div>
 
                     </div>
                     <div class="divopcoes">
-
+                        
                             <!-- Para usuários originários do Busca CEP -->
-                            <div> Simule um envio utilizando <br/> o CEP <strong>93410001</strong> como:</div>
+                            <div> Simule um envio utilizando <br> o CEP <strong>93410001</strong> como:</div>
                             <ul>
                                 <li>
-                                    <a onclick="retornarParaPrecos('93410001','1');">CEP Origem <img src="images/template/cep_r.png"/></a>
+                                    <a onclick="retornarParaPrecos('93410001','1');">CEP Origem <img src="images/template/cep_r.png"></a>
                                 </li>
                                 <li>
-                                    <a onclick="retornarParaPrecos('93410001','2');"><img src="images/template/cep_d.png"/>CEP Destino</a>
+                                    <a onclick="retornarParaPrecos('93410001','2');"><img src="images/template/cep_d.png">CEP Destino</a>
                                 </li>
                             </ul>
+                        
 
-
-
+                        
                     </div>
-
-
+                
+                
                     <div class="caixacampoazul">
+                        
+                        
 
-
-
-
+                        
                             <span class="resposta">Logradouro: </span>
                             <span class="respostadestaque">
                                 Rua Bento Gonçalves - de 1001/1002 a 1699/1700
-
-                            </span><br/>
-                            <span class="resposta">Bairro: </span><span class="respostadestaque">Centro</span><br/>
+                                
+                            </span><br>
+                            <span class="resposta">Bairro: </span><span class="respostadestaque">Centro</span><br>
                             <span class="resposta">Localidade / UF: </span>
                             <span class="respostadestaque">
                                 Novo Hamburgo
+                                
+                                /RS
+                                
+                            </span><br>
+                            <span class="resposta">CEP: </span><span class="respostadestaque">93410002</span><br>
+                        
 
-                /RS
+                        
 
-                            </span><br/>
-                            <span class="resposta">CEP: </span><span class="respostadestaque">93410002</span><br/>
+                        
 
+                        
 
-
-
-
-
-
-
-
-                        <div style="text-align: right;" class="mopcoes orientacao"><span>Opções <img style="position: relative right:0px;" src="images/template/mais.png"/></span></div>
-
-                    </div>
-                    <div class="divopcoes">
-
-                            <!-- Para usuários originários do Busca CEP -->
-                            <div> Simule um envio utilizando <br/> o CEP <strong>93410002</strong> como:</div>
-                            <ul>
-                                <li>
-                                    <a onclick="retornarParaPrecos('93410002','1');">CEP Origem <img src="images/template/cep_r.png"/></a>
-                                </li>
-                                <li>
-                                    <a onclick="retornarParaPrecos('93410002','2');"><img src="images/template/cep_d.png"/>CEP Destino</a>
-                                </li>
-                            </ul>
-
-
-
-                    </div>
-
-
-                <div class="caixacampobranco">
-
-
-
-
-                            <span class="resposta">Logradouro: </span>
-                            <span class="respostadestaque">
-                                Rua Bento Gonçalves - de 1701/1702 a 2099/2100
-
-                            </span><br/>
-                            <span class="resposta">Bairro: </span><span class="respostadestaque">Centro</span><br/>
-                            <span class="resposta">Localidade / UF: </span>
-                            <span class="respostadestaque">
-                                Novo Hamburgo
-
-                /RS
-
-                            </span><br/>
-                            <span class="resposta">CEP: </span><span class="respostadestaque">93410003</span><br/>
-
-
-
-
-
-
-
-
-
-                        <div style="text-align: right;" class="mopcoes orientacao"><span>Opções <img style="position: relative right:0px;" src="images/template/mais.png"/></span></div>
+                        
+                        <div style="text-align: right;" class="mopcoes orientacao"><span>Opções <img style="position: relative right:0px;" src="images/template/mais.png"></span></div>
 
                     </div>
                     <div class="divopcoes">
-
+                        
                             <!-- Para usuários originários do Busca CEP -->
-                            <div> Simule um envio utilizando <br/> o CEP <strong>93410003</strong> como:</div>
+                            <div> Simule um envio utilizando <br> o CEP <strong>93410002</strong> como:</div>
                             <ul>
                                 <li>
-                                    <a onclick="retornarParaPrecos('93410003','1');">CEP Origem <img src="images/template/cep_r.png"/></a>
+                                    <a onclick="retornarParaPrecos('93410002','1');">CEP Origem <img src="images/template/cep_r.png"></a>
                                 </li>
                                 <li>
-                                    <a onclick="retornarParaPrecos('93410003','2');"><img src="images/template/cep_d.png"/>CEP Destino</a>
+                                    <a onclick="retornarParaPrecos('93410002','2');"><img src="images/template/cep_d.png">CEP Destino</a>
                                 </li>
                             </ul>
+                        
 
-
-
+                        
                     </div>
-
-
-                    <div class="caixacampoazul">
-
-
-
-
-                            <span class="resposta">Logradouro: </span>
-                            <span class="respostadestaque">
-                                Rua Bento Gonçalves - de 2101/2102 a 2499/2500
-
-                            </span><br/>
-                            <span class="resposta">Bairro: </span><span class="respostadestaque">Centro</span><br/>
-                            <span class="resposta">Localidade / UF: </span>
-                            <span class="respostadestaque">
-                                Novo Hamburgo
-
-                /RS
-
-                            </span><br/>
-                            <span class="resposta">CEP: </span><span class="respostadestaque">93510000</span><br/>
-
-
-
-
-
-
-
-
-
-                        <div style="text-align: right;" class="mopcoes orientacao"><span>Opções <img style="position: relative right:0px;" src="images/template/mais.png"/></span></div>
-
-                    </div>
-                    <div class="divopcoes">
-
-                            <!-- Para usuários originários do Busca CEP -->
-                            <div> Simule um envio utilizando <br/> o CEP <strong>93510000</strong> como:</div>
-                            <ul>
-                                <li>
-                                    <a onclick="retornarParaPrecos('93510000','1');">CEP Origem <img src="images/template/cep_r.png"/></a>
-                                </li>
-                                <li>
-                                    <a onclick="retornarParaPrecos('93510000','2');"><img src="images/template/cep_d.png"/>CEP Destino</a>
-                                </li>
-                            </ul>
-
-
-
-                    </div>
-
-
-                <div class="caixacampobranco">
-
-
-
-
-                            <span class="resposta">Logradouro: </span>
-                            <span class="respostadestaque">
-                                Rua Bento Gonçalves - de 2501/2502 a 2949/2950
-
-                            </span><br/>
-                            <span class="resposta">Bairro: </span><span class="respostadestaque">Centro</span><br/>
-                            <span class="resposta">Localidade / UF: </span>
-                            <span class="respostadestaque">
-                                Novo Hamburgo
-
-                /RS
-
-                            </span><br/>
-                            <span class="resposta">CEP: </span><span class="respostadestaque">93510001</span><br/>
-
-
-
-
-
-
-
-
-
-                        <div style="text-align: right;" class="mopcoes orientacao"><span>Opções <img style="position: relative right:0px;" src="images/template/mais.png"/></span></div>
-
-                    </div>
-                    <div class="divopcoes">
-
-                            <!-- Para usuários originários do Busca CEP -->
-                            <div> Simule um envio utilizando <br/> o CEP <strong>93510001</strong> como:</div>
-                            <ul>
-                                <li>
-                                    <a onclick="retornarParaPrecos('93510001','1');">CEP Origem <img src="images/template/cep_r.png"/></a>
-                                </li>
-                                <li>
-                                    <a onclick="retornarParaPrecos('93510001','2');"><img src="images/template/cep_d.png"/>CEP Destino</a>
-                                </li>
-                            </ul>
-
-
-
-                    </div>
-
-
-                    <div class="caixacampoazul">
-
-
-
-
-                            <span class="resposta">Logradouro: </span>
-                            <span class="respostadestaque">
-                                Rua Bento Gonçalves - de 2951/2952 ao fim
-
-                            </span><br/>
-                            <span class="resposta">Bairro: </span><span class="respostadestaque">Centro</span><br/>
-                            <span class="resposta">Localidade / UF: </span>
-                            <span class="respostadestaque">
-                                Novo Hamburgo
-
-                /RS
-
-                            </span><br/>
-                            <span class="resposta">CEP: </span><span class="respostadestaque">93520000</span><br/>
-
-
-
-
-
-
-
-
-
-                        <div style="text-align: right;" class="mopcoes orientacao"><span>Opções <img style="position: relative right:0px;" src="images/template/mais.png"/></span></div>
-
-                    </div>
-                    <div class="divopcoes">
-
-                            <!-- Para usuários originários do Busca CEP -->
-                            <div> Simule um envio utilizando <br/> o CEP <strong>93520000</strong> como:</div>
-                            <ul>
-                                <li>
-                                    <a onclick="retornarParaPrecos('93520000','1');">CEP Origem <img src="images/template/cep_r.png"/></a>
-                                </li>
-                                <li>
-                                    <a onclick="retornarParaPrecos('93520000','2');"><img src="images/template/cep_d.png"/>CEP Destino</a>
-                                </li>
-                            </ul>
-
-
-
-                    </div>
-
-
-                <div class="caixacampobranco">
-
-
-
-
-
-
-
-
-
-
-
-
-                            <span class="resposta">Endereço: </span>
-                            <span class="respostadestaque">
-                                Rua Bento Gonçalves, 2399
-
-                            </span><br/>
-                            <span class="resposta">Bairro: </span><span class="respostadestaque">Centro</span><br/>
-                            <span class="resposta">Localidade/UF: </span>
-                            <span class="respostadestaque">
-                                Novo Hamburgo
-
-                /RS
-
-                            </span><br/>
-                            <span class="resposta">CEP: </span><span class="respostadestaque">93510970</span><br/>
-                            <span class="resposta">Unidade: </span><span class="respostadestaque">ACF Calçadão</span><br/>
-
-                        <div style="text-align: right;" class="mopcoes orientacao"><span>Opções <img style="position: relative right:0px;" src="images/template/mais.png"/></span></div>
-
-                    </div>
-                    <div class="divopcoes">
-
-                            <!-- Para usuários originários do Busca CEP -->
-                            <div> Simule um envio utilizando <br/> o CEP <strong>93510970</strong> como:</div>
-                            <ul>
-                                <li>
-                                    <a onclick="retornarParaPrecos('93510970','1');">CEP Origem <img src="images/template/cep_r.png"/></a>
-                                </li>
-                                <li>
-                                    <a onclick="retornarParaPrecos('93510970','2');"><img src="images/template/cep_d.png"/>CEP Destino</a>
-                                </li>
-                            </ul>
-
-
-
-                    </div>
-
-
+                
+            
 
             <div class="botoes">
                 <div class="iconeesq">
-
+                    
                         <a href="buscaCep.do"><img src="images/template/seta-esquerda.gif"><span class="nav">&nbsp;Nova Consulta</span></a>
-
-
+                        
+                        
                 </div>
-
-
+                
+                
                 <br class="clr">
                 <input type="hidden" name="metodo" value="buscarCep" id="metodo">
                 <input type="hidden" name="numPagina" value="1">
-                <input type="hidden" name="regTotal" value="7">
-                <input type="hidden" name="cepEntrada" value="rua bento gonçalves novo hamburgo" id="cepEntrada">
+                <input type="hidden" name="regTotal" value="2">
+                <input type="hidden" name="cepEntrada" value="Rua Bento Gonçalves Novo Hamburgo" id="cepEntrada">
                 <input type="hidden" name="tipoCep" value="" id="tipoCep">
                 <input type="hidden" name="cepTemp" value="" id="cepTemp">
             </div>
@@ -430,7 +177,7 @@
 
     </div>
     <script>
-
+    
         $('document').ready(function(){
             $('div div.mopcoes span').click(function(){
                 $(this).parents().next('div.divopcoes').slideToggle(500);
@@ -459,7 +206,7 @@
                         cepOrigem=pCepSelecionado;
                         cepDestino=$('#cepTemp').val();
                         break;
-
+                    
                     case "2":
                         cepOrigem=$('#cepTemp').val();
                         cepDestino=pCepSelecionado;
@@ -481,26 +228,27 @@
         <input type="hidden" name="cepDestino" value="" id="cepDestino">
     </form>
     <form name="buscaCepForm" method="post" action="/movel/buscaCep.do" id="buscaCepInicio">
-        <input type="hidden" name="cepEntrada" value="rua bento gonçalves novo hamburgo" class="comptotal">
+        <input type="hidden" name="cepEntrada" value="Rua Bento Gonçalves Novo Hamburgo" class="comptotal">
         <input type="hidden" name="tipoCep" value="" id="tipoCep">
         <input type="hidden" name="cepTemp" value="" id="cepTemp">
     </form>
 
 
-        <br/>
-      </div>
-      <div class="rodape">
-        &nbsp;
-<a href="/movel/faleCorreios.do">
+                <br>
+            </div>
+            <div class="rodape">
+                &nbsp;
+<a href="http://www2.correios.com.br/sistemas/falecomoscorreios/">
     <img src="images/template/fcc.gif" align="absmiddle">
     <span class="orientacao">&nbsp;Fale com os Correios</span>
-</a> |
+</a> | 
 <a href="http://www.correios.com.br/">
     <span class="orientacao">&nbsp;Versão clássica</span>
 </a><br>
 
-<div class="textorodape">&copy; Copyright 2013 Correios - Todos os direitos reservados</div>
-      </div>
-    </div>
-  </body>
-</html>
+<div class="textorodape">© Copyright 2015 Correios - Todos os direitos reservados</div>
+            </div>
+        </div>
+    
+
+<style>.tb_button {padding:1px;cursor:pointer;border-right: 1px solid #8b8b8b;border-left: 1px solid #FFF;border-bottom: 1px solid #fff;}.tb_button.hover {borer:2px outset #def; background-color: #f8f8f8 !important;}.ws_toolbar {z-index:100000} .ws_toolbar .ws_tb_btn {cursor:pointer;border:1px solid #555;padding:3px}   .tb_highlight{background-color:yellow} .tb_hide {visibility:hidden} .ws_toolbar img {padding:2px;margin:0px}</style><div id="window-resizer-tooltip" style="display: none;"><a href="#" title="Edit settings"></a><span class="tooltipTitle">Window size: </span><span class="tooltipWidth" id="winWidth">1600</span> x <span class="tooltipHeight" id="winHeight">873</span><br><span class="tooltipTitle">Viewport size: </span><span class="tooltipWidth" id="vpWidth">1600</span> x <span class="tooltipHeight" id="vpHeight">500</span></div></body><object id="787b5a78-a85a-94ae-7949-69b2ea83adb3" width="0" height="0" type="application/gas-events-cef"></object></html>
