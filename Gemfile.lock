@@ -25,7 +25,7 @@ GEM
       term-ansicolor
       thor
     diff-lcs (1.2.4)
-    ffi (1.9.0)
+    ffi (1.10.0)
     formatador (0.2.4)
     guard (1.8.2)
       formatador (>= 0.2.4)
